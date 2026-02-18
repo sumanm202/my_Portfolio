@@ -1,4 +1,5 @@
-﻿@import "tailwindcss";
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
 
 :root {
   color-scheme: light;
@@ -6,7 +7,7 @@
   --font-body: "Manrope", "Nunito Sans", sans-serif;
 }
 
-:root[data-theme="dark"] {
+:root.dark {
   color-scheme: dark;
 }
 
