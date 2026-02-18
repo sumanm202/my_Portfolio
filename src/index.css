@@ -1,0 +1,36 @@
+﻿@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+  --font-display: "Space Grotesk", "Manrope", sans-serif;
+  --font-body: "Manrope", "Nunito Sans", sans-serif;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(100, 116, 139, 0.65) transparent;
+}

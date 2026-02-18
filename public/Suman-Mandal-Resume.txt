@@ -1,0 +1,42 @@
+﻿Suman Mandal
+Role: Android Developer | Flutter Developer | Frontend Developer
+Location: India
+Education: B.Tech in Computer Science (CGPA: 7.83 till 7th semester)
+Career Goal: Android / Mobile App Developer
+
+TECH STACK
+Frontend: HTML5, CSS3, JavaScript, React.js, Tailwind CSS, Material UI
+Mobile: Android (Kotlin, Java), Jetpack Compose, Flutter
+Backend & Cloud: Firebase (Auth, Firestore, Realtime DB, FCM), PHP, REST APIs
+AI/ML: OpenCV, MediaPipe, DeepFace, TensorFlow Lite
+Tools: Git, GitHub, Android Studio, VS Code, Figma
+
+PROJECTS
+1) Optometry Library App
+Android app using Firebase RTDB + Firestore fallback
+Book listing, download system, progress tracking
+MVVM architecture with ViewModel & LiveData
+Solved regional Firebase access issues
+
+2) SheSecure
+Women safety Android application
+Emergency SOS, live location sharing
+Firebase authentication and real-time database
+
+3) Generator Bill Management System
+Web-based billing management system
+PHP backend with MySQL
+Invoice generation and admin dashboard
+
+4) Flutter WebView App
+Integrated Firebase Push Notifications
+JavaScript <-> Flutter communication
+File upload/download support
+Secure session handling
+
+CERTIFICATIONS
+- Oracle Cloud Infrastructure AI Foundations Associate
+- SimpleLearn - Introduction to Frontend Development
+- Forage - Solution Architecture Job Simulation
+- Ardent - Python Django Full Stack (Industrial Training)
+- BlockSeBlock - Blockchain Developer Intern
