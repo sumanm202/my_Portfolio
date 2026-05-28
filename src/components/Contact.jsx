@@ -33,16 +33,22 @@ export default function Contact({ socialLinks, contactEmail }) {
     setIsSending(true);
     try {
       await emailjs.send(
-        serviceId,
-        templateId,
-        {
-          from_name: formData.name,
-          from_email: formData.email,
-          message: formData.message,
-          to_email: contactEmail
-        },
-        { publicKey }
-      );
+  serviceId,
+  templateId,
+  {
+    from_name: formData.name,
+    from_email: formData.email,
+
+    // এগুলো EmailJS template এ use হবে
+    name: formData.name,
+    email: formData.email,
+    message: formData.message,
+    time: new Date().toLocaleString(),
+
+    to_email: contactEmail
+  },
+  publicKey
+);
       setFormData({ name: "", email: "", message: "" });
       showToast("success", "Email sent successfully.");
     } catch {
